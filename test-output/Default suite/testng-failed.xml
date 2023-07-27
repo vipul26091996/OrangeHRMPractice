@@ -6,8 +6,8 @@
       <class name="testfile.TestFile">
         <methods>
           <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="checkUnsuccessfulLogin"/>
+          <include name="checkPersonalDetailsField"/>
+          <include name="modifyName"/>
         </methods>
       </class> <!-- testfile.TestFile -->
     </classes>

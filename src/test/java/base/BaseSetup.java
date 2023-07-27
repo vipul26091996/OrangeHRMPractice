@@ -44,7 +44,7 @@ public class BaseSetup {
 
 	}
 
-	@AfterTest
+	//@AfterTest
 	public void tearDown() {
 		driver.quit();
 		System.out.println("Tear Down Successful");
